@@ -13,7 +13,7 @@
       <input type="hidden" name="utm_source" :value="utmSource" />
 
       <label for="name">Email:</label>
-      <input type="email" name="email" />
+      <input type="email" name="email" required />
       <button type="submit">Submit</button>
     </form>
   </div>
